@@ -1,0 +1,81 @@
+# DDP LAB-3
+
+# SOAL 1 - Gunting-Batu-Kertas
+# Tuliskan program untuk Soal 1 di bawah ini
+print ("Gunting Batu Kertas")
+print("")
+
+p1 =input("Masukan pilihan pemain1: ")
+p2 =input("Masukan pilihan pemain2: ")
+if p1==p2:
+  print("Permainan seri")
+
+elif p1 == "gunting":
+  if p2 == "batu":
+    print('pemain1 kalah')
+elif p2 == "kertas":
+    print('pemain1 menang')
+
+elif p1 == "kertas":
+  if p2 == "gunting":
+    print('pemain1 kalah')
+elif p1 == "batu":
+    print('pemain1 menang') 
+
+elif p1 == "batu":
+  if p2 == "kertas":
+    print('pemain1 kalah')
+elif p2 == "gunting":
+    print('pemain1 menang')
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+# SOAL 2 - Toko Buku Bekas
+# Tuliskan program untuk Soal 2 di bawah ini
+print()
+print("TOKO BUKU BEKAS")
+print("")
+Buku=int(input("Masukan banyaknya buku yang akan dibeli: "))
+harga=0
+if(Buku<=10):
+  harga=20000
+elif(Buku<=25):
+  harga=18000
+elif(Buku<=50):
+  harga=15000
+elif(Buku<=100):
+  harga=10000
+
+total=harga*Buku
+print('Harga yang harus dibayar=Rp.', total,'Rupiah')
+
+
+
+
+
+# SOAL 3 - Mencetak Persegi
+# Tuliskan program untuk Soal 3 di bawah ini
+print("")
+print("MENCETAK PERSEGI")
+print("")
+
+persegi=int(input("Masukan sebuah bilangan bulat: "))
+for i in range (1,persegi):
+  if(i%2):
+    print('#'*persegi)
+    print('$'*persegi)
+
+
+
+
